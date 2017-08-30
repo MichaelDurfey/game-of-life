@@ -259,14 +259,7 @@ this.timerId = setInterval(() => this.phaseOne());
 
 reset(){
 this.stop();
-// this.setState({
-//   x: [],
-//   generation: 0,
-// })
-this.setState((prevState)=> {
-  prevState.x = []
-  prevState.generation = 0
-})
+this.state.x = [];
 this.initialize(this.state.board, this.state.initialLiveCells);
 }
 
