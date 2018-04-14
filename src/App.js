@@ -300,7 +300,7 @@ return (
         <div className="generation" style={generationStyle}>
           <div>Generation: {this.state.generation}</div>
       </div>
-                    <div style={{color: 'white', textAlign: 'center', width: '100%', marginBottom: '10'}}> click on the squares below to add a live cell!<br /> <br />
+                    <div style={{color: 'white', textAlign: 'center', width: '100%', marginBottom: '10'}}> Press start! <br /> Click on the squares below to add a live cell<br /> <br />
                       <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Learn more</a> about <strong>The Game of Life</strong></div>
       <Grid board={this.state.x} handleClick={(index) => this.clickHandler(index)}/>
     </div>
